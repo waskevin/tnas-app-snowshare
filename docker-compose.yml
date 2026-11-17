@@ -1,0 +1,9 @@
+services:
+  snowshare:
+    image: 
+turodev/snowshare
+:
+1.5
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
